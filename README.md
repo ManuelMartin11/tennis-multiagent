@@ -45,3 +45,10 @@ the environment that matches your operating system:
 ## Running
 Run the cells in the notebook `Tennis.ipynb` to train an agent that solves our required
 task of moving the double-jointed arm.
+
+## Some future improvements
+ 
+- Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+- We could implement different algorithms such as Asynchronous Actor-Critic Agents (A3C) or Proximal Policy Approximation.
+- Implement different layers in the actor and critic neural networks such as Long-Short Term Memory layers that could potentially improve sequential relations. They may also harm the learning due to the fact that they memorize the trajectoriesi and introduce correlations among them.
+- Also, obviously, tweaking the different hyperparameters of the algorithm could eventually lead to high gains.
